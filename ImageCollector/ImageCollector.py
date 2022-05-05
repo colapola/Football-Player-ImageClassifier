@@ -6,8 +6,8 @@ import io
 import os
 import hashlib
 
-DRIVER_PATH = 'D:\linhtinh\ChromeDriver\chromedriver.exe'
-# wd = webdriver.Chrome(executable_path=DRIVER_PATH)
+DRIVER_PATH = 'your\path\to\chromedriver.exe'
+wd = webdriver.Chrome(executable_path=DRIVER_PATH)
 
 
 def fetch_image_urls(query: str, max_links_to_fetch: int, wd: webdriver, sleep_between_interactions: float = 1.0):
